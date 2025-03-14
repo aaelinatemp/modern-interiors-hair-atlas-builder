@@ -1,7 +1,6 @@
 import argparse
 import PIL
 import PIL.Image
-import PIL.ImageChops
 
 def build_hair_atlas(hair_i: PIL.Image, mask_i: PIL.Image) -> PIL.Image:
   dir_c = [
